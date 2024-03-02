@@ -1,7 +1,8 @@
 import "./App.css";
+import Body from "./components/Body";
 
 function App() {
-  return <div className="mt-8">riki</div>;
+  return <Body />;
 }
 
 export default App;
