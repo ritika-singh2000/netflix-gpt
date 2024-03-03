@@ -40,7 +40,6 @@ const Login = () => {
       )
         .then((userCredential) => {
           const user = userCredential.user;
-          console.log(user);
           updateProfile(user, {
             displayName: name.current.value,
           })
@@ -50,7 +49,6 @@ const Login = () => {
               dispatch(
                 addUser({ uid: uid, email: email, displayName: displayName })
               );
-              navigate("/browse");
             })
             .catch((error) => {
               // An error occurred
@@ -68,8 +66,6 @@ const Login = () => {
       signInWithEmailAndPassword(auth, email.current.value, pwd.current.value)
         .then((userCredential) => {
           const user = userCredential.user;
-          console.log(user);
-          navigate("/browse");
         })
         .catch((error) => {
           const errorCode = error.code;

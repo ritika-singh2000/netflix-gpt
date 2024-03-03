@@ -6,3 +6,16 @@ export const BG_URL =
 
 export const USER_AVATAR =
   "https://occ-0-6247-2164.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdpkabKqQAxyWzo6QW_ZnPz1IZLqlmNfK-t4L1VIeV1DY00JhLo_LMVFp936keDxj-V5UELAVJrU--iUUY2MaDxQSSO-0qw.png?r=e6e";
+
+export const API_KEY = "68e2321c306aee90bc020dce61935a42";
+export const API_READ_ACCESS_TOKEN =
+  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2OGUyMzIxYzMwNmFlZTkwYmMwMjBkY2U2MTkzNWE0MiIsInN1YiI6IjY1ZTNmNTc2OTk3OWQyMDE2M2IwMTRlMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.d6opH20RAmX--d14u8eIf86EwEhu2RIzbeclZTB50DI";
+
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2OGUyMzIxYzMwNmFlZTkwYmMwMjBkY2U2MTkzNWE0MiIsInN1YiI6IjY1ZTNmNTc2OTk3OWQyMDE2M2IwMTRlMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.d6opH20RAmX--d14u8eIf86EwEhu2RIzbeclZTB50DI",
+  },
+};
